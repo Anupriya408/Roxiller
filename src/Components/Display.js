@@ -36,7 +36,7 @@ function Display() {
         <div style={{display:"flex",justifyContent:"space-around"}}>
         <div style={{width:"50%",alignItems:"center"}}>
         <div style={{marginBottom:"-50px", width:"500px",height:"50px",alignItems:"center", display:"flex",justifyContent:"space-between",marginTop:"30px"}}>
-        <h1>Todos</h1>
+        <h1>TODOS....</h1>
         <input type="text" style={{padding:"5px",borderRadius:"13px"}}  placeholder='Search.....' onChange={(e)=>{setState(e.target.value)}}/> 
        </div>
        <div style={{width:"100%",alignItems:"center"}}>

@@ -24,7 +24,6 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
   
   })
 }
-// console.log(state)
     return (
         <div style={{textAlign:"left"}}>
         <h1 style={{color:"teal"}}>Todo Delails</h1>

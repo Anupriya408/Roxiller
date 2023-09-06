@@ -1,4 +1,5 @@
 import React from 'react';
+
 let initialdata={
     TODOS:[],
 };
@@ -12,9 +13,7 @@ function Reducer(state=initialdata,action) {
             }
           
         }
-
-
-        default:{
+            default:{
             return state;
         }
 
